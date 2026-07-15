@@ -1,0 +1,70 @@
+# Core Dependencies
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# LLM and AI
+openai>=1.0.0
+langchain>=0.1.0
+langchain-openai>=0.0.2
+llama-index>=0.9.0
+llama-index-vector-stores-qdrant>=0.1.0
+llama-index-embeddings-openai>=0.1.0
+
+# Multimodal Processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+openai-whisper>=20231117
+transformers>=4.30.0
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# Knowledge Graph
+neo4j>=5.15.0
+py2neo>=2021.2.0
+
+# Vector Database
+qdrant-client>=1.7.0
+
+# Evaluation
+deepeval>=0.17.0
+arize-phoenix>=3.0.0  # Monitoring and observability for LLM applications
+# phoenix-evals is optional and currently only supports Python <= 3.11
+# Install manually if needed: pip install "phoenix-evals<0.6"
+
+# Agent Framework (optional - can be removed if causing issues)
+# crewai>=0.1.0
+# autogen-agentchat>=0.2.0
+
+# Document Processing
+pypdf2>=3.0.0
+python-docx>=1.1.0
+pdfplumber>=0.10.0
+chonkie>=0.1.0  # Advanced document processing with layout understanding
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+python-multipart>=0.0.6
+textblob>=0.17.1  # For sentiment analysis (bonus feature)
+
+# UI
+streamlit>=1.28.0
+plotly>=5.17.0
+networkx>=3.0.0
+matplotlib>=3.7.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Logging and Monitoring
+loguru>=0.7.0
+
+# Reranking (for improved precision)
+sentence-transformers>=2.2.0
+

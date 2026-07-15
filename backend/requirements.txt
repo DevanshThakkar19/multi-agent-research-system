@@ -1,0 +1,58 @@
+# Core Dependencies
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# FastAPI and WebSocket
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+websockets>=12.0
+python-multipart>=0.0.6
+
+# LLM and AI
+openai>=1.0.0
+langchain>=0.1.0
+langchain-openai>=0.0.2
+langchain-community>=0.0.10
+
+# Web Search APIs
+tavily-python>=0.3.0  # Tavily search API
+# serper>=1.0.0  # Alternative: Serper API
+# perplexity>=0.1.0  # Alternative: Perplexity API
+
+# RAG System Dependencies (from replicated system)
+# Note: These should match rag_requirements.txt
+qdrant-client>=1.7.0
+neo4j>=5.15.0
+py2neo>=2021.2.0
+
+# Utilities
+loguru>=0.7.0
+python-json-logger>=2.0.7
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0  # For testing FastAPI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
